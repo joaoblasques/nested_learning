@@ -165,6 +165,7 @@ Memorization metrics (baseline vs adaptive) are emitted alongside task accuracy 
 All Hydra knobs can be overridden from the CLI or composed via config groups (`configs/hope/*.yaml`). Use these flags in tandem with `scripts/run_e2e_smoke.sh` (automation) or `scripts/run_cpu_ddp_smoke.sh` (CPU-only determinism check) to validate releases quickly.
 
 ## Documentation & References
+- **`CODEBASE_EXPLANATION.md`** – **comprehensive explanation of concepts, architecture, and usage** (start here!).
 - `docs/guide.md` – full onboarding (setup → data → training → eval).
 - `docs/release_plan.md` – release readiness checklist.
 - `docs/data_pipeline.md` – large-scale sharding/tokenizer workflow.
